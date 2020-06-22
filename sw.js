@@ -1,9 +1,17 @@
 let cacheName = 'Eugene Portfolio';
 let filesToCache = [
   "index.html",
-  "logo.png"
+  "aboutme.txt"
+  "contactme.txt",
+  "eugene.jpg",
+  "logo.jpg",
   "manifest.json",
-  "profile_pic.png",
+  "project_1.png",
+  "project_2.png",
+  "project_3.png",
+  "project_4.png",
+  "project.txt",
+  "readme.txt",
   "registerServiceWorker.js",
   "script.js",
   "style.css",
