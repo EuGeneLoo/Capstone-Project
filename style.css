@@ -1,0 +1,261 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.invisible {
+  display:none;
+}
+
+#all-pages {
+  margin: 0;
+  position:relative;
+}
+
+.page {
+  padding: 2em;
+  height: calc(100vh - 40px);
+  width: 100%;
+  will-change: transform;
+  transition: transform 0.5s ease-in;
+  box-sizing:border-box;
+}
+
+#page-1 {  
+  background-color: white;
+  position:absolute;
+}
+
+#page-2 {  
+  background-color: white;
+  position:absolute;
+}
+
+#page-3 {
+  background-color: white;
+  position:absolute;
+}
+
+#page-4 {
+  background-color: white;
+  position: absolute;
+}
+
+ .hidden {
+  transform:translateX(-100%);
+ }
+
+.shown {
+  transform:translateX(0);
+} 
+
+#main {
+  margin:0!important;
+  padding:0!important;
+}
+
+#notification {
+  display: none
+}
+
+#notification.show {
+  display: block;
+}
+
+/* TEXT TYPING */
+.teletype-prefix{display:none;}
+
+.type-text{
+  text-align:center;
+  /* padding:50px 0; */
+  color: #393e46;
+}
+
+.type-text span{
+  font-size:3em;
+  font-weight:900;
+}
+
+
+.custom-btn-class {
+  background-color:#32e0c4;
+  color:#393e46;
+  border-color:#32e0c4;
+  
+}
+
+
+.custom-btn-class:hover {
+  background-color:#393e46;
+  border-color:#393e46;
+  color:white;
+
+}
+
+
+.aboutme-info{
+  font-weight:bold;
+}
+
+/* Project GRID */
+
+
+
+/* from 300px above */
+@media only screen and (min-width: 300px) {
+
+#aboutme-container {
+  display:flex;
+  /* by default the direction is row */
+  flex-direction: column;
+  /*by default justify-content is flex-start*/
+  justify-content:center;
+  align-items: center;
+}
+
+.aboutme-box{
+  width:300px;
+  height:300px;
+  padding-bottom:10px;
+  margin:10px;
+}
+
+.home-container{
+  display: flex; 
+  display: -webkit-flex;
+  flex-direction: column; 
+  justify-content: center; 
+  text-align:center;
+  align-items:center;
+  width:100%;
+  margin:0 auto;
+}
+
+.project-container{
+
+  display:flex;
+  /* by default the direction is row */
+  flex-direction: column;
+  /*by default justify-content is flex-start*/
+  justify-content:center;
+  align-items: center;
+  
+}
+
+.project-item{
+ margin-bottom:50px;
+}
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+
+#aboutme-container {
+  display:flex;
+  /* by default the direction is row */
+  flex-direction: row;
+  /*by default justify-content is flex-start*/
+  justify-content:center;
+  align-items: center;
+}
+
+.aboutme-box{
+  width:350px;
+  height:350px;
+  padding-bottom:10px;
+}
+
+#aboutme-box-eugene{
+margin-bottom:100px;
+}
+
+#aboutme-info-eugene{
+  margin-right:50px;
+}
+
+.home-container{
+  display: flex; 
+  display: -webkit-flex;
+  flex-direction: column; 
+  justify-content: center; 
+  text-align:center;
+  align-items:center;
+  margin:0 auto;
+}
+
+.project-container{
+  display:flex;
+  /* by default the direction is row */
+  flex-direction: row;
+  /*by default justify-content is flex-start*/
+  justify-content:center;
+  align-items: center;
+}
+
+.project-item{
+  margin:10px;
+}
+
+
+/* Style the counter cards */
+.card {
+  text-align: center;
+}
+
+}
+
+
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+
+#aboutme-container {
+display:flex;
+/* by default the direction is row */
+flex-direction: row;
+/*by default justify-content is flex-start*/
+justify-content:center;
+align-items: center;
+
+}
+
+.aboutme-box{
+width:500px;
+height:500px;
+}
+
+#aboutme-box-eugene{
+margin-bottom:200px;
+}
+
+#aboutme-info-eugene{
+  margin-right:100px;
+}
+
+.home-container{
+  display: flex; 
+  display: -webkit-flex;
+  flex-direction: column; 
+  justify-content: center; 
+  align-items:center;
+  width:100%;
+  margin:0 auto;
+}
+
+.item{
+  margin:30px;
+}
+
+.project-container{
+  display:flex;
+  /* by default the direction is row */
+  flex-direction: row;
+  /*by default justify-content is flex-start*/
+  justify-content:center;
+  align-items: center;
+}
+
+
+
+}

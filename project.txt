@@ -1,0 +1,49 @@
+<div class="project-container row">
+
+  <div class ="project-item column">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="project_1.png" alt="Card image cap" style ="height:220px;">
+      <div class="card-body">
+        <h5 class="card-title">Infographic</h5>
+        <p class="card-text">Infographic about Customer Behaviour in hotels</p>
+        <a href="https://www.behance.net/gallery/66880987/Infographic-On-Customer-Behaviour-In-Hotels" target="_blank" class="btn btn-primary custom-btn-class">View it</a>
+      </div>
+    </div>
+  </div>
+
+  <div class ="project-item column">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="project_2.png" alt="Card image cap" style ="height:220px;">
+      <div class="card-body">
+        <h5 class="card-title">Infographic Resume</h5>
+        <p class="card-text">Infographic of my Resume and skillset over the years</p>
+        <a href="https://www.behance.net/gallery/45345245/My-Infographic-resume" target="_blank" class="btn btn-primary custom-btn-class">View it</a>
+      </div>
+    </div>
+  </div>
+
+  <div class ="project-item column">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="project_3.png" alt="Card image cap" style ="height:220px;">
+      <div class="card-body">
+        <h5 class="card-title">Poster/Pamphlet Design</h5>
+        <p class="card-text">Poster and Pamphlet Design for Keppel Corp FYP Project</p>
+        <a href="https://www.behance.net/gallery/99312699/Keppel-Corp-FYP-Project" target="_blank" class="btn btn-primary custom-btn-class">View it</a>
+      </div>
+    </div>
+  </div>
+
+  <div class ="project-item column">
+    <div class="card" style="width: 18rem;">
+      <img class="card-img-top" src="project_4.png" alt="Card image cap" style ="height:220px;">
+      <div class="card-body">
+        <h5 class="card-title">Business Card Design</h5>
+        <p class="card-text">Business Card Design for Carpentry Workers</p>
+        <a href="https://www.behance.net/gallery/99333013/Carpentry-Business-Card?" target="_blank" class="btn btn-primary custom-btn-class">View it</a>
+      </div>
+    </div>
+  </div>
+
+  
+
+</div>

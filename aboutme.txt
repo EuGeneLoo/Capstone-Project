@@ -1,0 +1,13 @@
+<div id = "aboutme-container"> 
+  <img class="aboutme-box" id="aboutme-box-eugene" src= "eugene.jpg"/> 
+
+  <div class = "aboutme-box" id="aboutme-info-eugene">
+    <h1>About Me</h1>
+    <p><span class="aboutme-info">Name:</span> Loo Eu Gene</p>
+    <p><span class="aboutme-info">Software Development Skills:</span> HTML/CSS/Javascript</p>
+    <p><span class="aboutme-info">Analystics Skills:</span> Socidal Media analytics/ Business Analytics</p>
+    <p><span class="aboutme-info">Design Skills:</span> Illustrator/ Photoshop</p>
+    
+  </div>    
+</div>
+

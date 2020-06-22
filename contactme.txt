@@ -1,0 +1,18 @@
+
+<div class="home-container">
+  <div class="item">
+  <h1> Contact Me: </h1>
+  </div>
+  <div class="item">
+  <img src = "eugene.jpg" style ="width: 400px;"/>
+  </div>
+
+  <div class="item">
+    <a href = "https://www.facebook.com/eugeneloo27" target="_blank" ><button type="button" class="btn btn-secondary custom-btn-class" id = "btn1" >Facebook</button></a>  
+    
+    <a href = "https://www.linkedin.com/in/eugeneloo/" target="_blank"><button type="button" class="btn btn-secondary custom-btn-class" id = "btn2" >LinkedIn</button></a>
+
+     <a href = "mailto:eugenelooyj@gmail.com"><button type="button" class="btn btn-secondary custom-btn-class" id = "btn2" >Email</button></a>
+
+  </div>
+</div>
